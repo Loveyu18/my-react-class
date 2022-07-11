@@ -1,19 +1,17 @@
-import { useState } from 'react';
+import React from 'react';
 
 function App() {
-  // useState(0) => [getter, serrer]
-  const [total, setTotal] = useState(0);
+  // 只要有宣告就先寫<></>
+  const elm = <></>;
 
-  const add = (x) => x + 1;
-
+  // 看到 on 開頭的就先寫箭頭函式
+  // class -> className ; for -> htmlFor
   return (
-    <h1
-      onClick={() => {
-        setTotal(add(total));
-      }}
-    >
-      {total}
-    </h1>
+    <>
+      <h1 onClick={() => { }}>123</h1>
+  
+      <h1 className="t123">123</h1>
+    </>
   );
 }
 
