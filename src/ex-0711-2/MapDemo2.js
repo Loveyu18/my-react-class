@@ -11,6 +11,7 @@ function MapDemo2() {
       <h1>Map</h1>
       {/* map filter wihle wihleindex 都用這樣寫 */}
       <ul>
+      
         {data.map((v, i) => {
           //只要看到 map 方法就一定要加 key
           //有 id 就要用 id
