@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // React.StrictMode: React 的嚴謹模式，檢查用的，可不加
   <React.StrictMode>
     <App />
   </React.StrictMode>
