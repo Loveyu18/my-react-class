@@ -5,13 +5,10 @@ import Counter from './ex-0711-3/Counter';
 import MapDemo2 from './ex-0711-2/MapDemo2';
 import Menu from './ex-0711-menu/Menu';
 import Homework3 from './Homework3';
+import Parent from './ex-0712-2/Parent';
 
-function App() {
-  return (
-    <>
-      <Homework3 />
-    </>
-  );
+function App(props) {
+  return <Parent />;
 }
 
 export default App;
