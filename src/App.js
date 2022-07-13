@@ -6,12 +6,13 @@ import React from 'react';
 // import Menu from './ex-0711-menu/Menu';
 // import Homework3 from './Homework3';
 // import Parent from './ex-0712-2/Parent';
-import OrderPage from './ex-0713-1/OrderPage';
+// import OrderPage from './ex-0713-1/OrderPage';
+import Controlled from './ex-0713-2/Controlled'
 
 function App() {
   return (
     <>
-      <OrderPage />
+      <Controlled />
     </>
   );
 }
