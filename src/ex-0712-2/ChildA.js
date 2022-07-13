@@ -3,7 +3,7 @@ function ChildA(props) {
   return (
     <>
       <h1>Child A</h1>
-      <p>{pData}</p>
+      <p>From ChildB Data:{pData}</p>
     </>
   );
 }
