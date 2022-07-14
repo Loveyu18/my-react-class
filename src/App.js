@@ -1,10 +1,10 @@
 import React from 'react';
-import Controlled from './ex-0714-1/Controlled'
+import BirthSelect from './ex-0714-date/BirthSelect';
 
 function App() {
   return (
     <>
-      <Controlled />
+      <BirthSelect />
     </>
   );
 }
