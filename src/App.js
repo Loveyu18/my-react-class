@@ -1,6 +1,5 @@
 import React from 'react';
-import Controlled from './ex-0715-3/Controlled';
-import MultipleInput from './ex-0715-3/MultipleInput';
+import HTML5Form from './ex-0715-4/HTML5Form';
 import { Container } from 'semantic-ui-react';
 import BGwave from './BGwave/BGwave';
 import Navbar from './Navbar/Navbar';
@@ -10,7 +9,7 @@ function App() {
     <>
       <Navbar />
       <Container>
-        <MultipleInput />
+        <HTML5Form />
       </Container>
       <BGwave />
     </>

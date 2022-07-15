@@ -1,4 +1,5 @@
 import { Fragment, useState } from 'react';
+import MyButton from '../components/MyButton';
 
 function MultipleInput() {
   const [userData, setUserData] = useState({
@@ -23,6 +24,7 @@ function MultipleInput() {
 
   return (
     <>
+      <MyButton />
       <label>姓名</label>
       <input
         name="fullName"
